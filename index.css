@@ -1,0 +1,28 @@
+#body {		padding: 0;
+			margin: 0 auto; }
+#header { 	background-color: #E0EEEE;
+			width:auto;
+			margin: 0 auto;
+			padding: 0;
+			height: 350px;
+			position: relative;
+			text-align: center; }
+#pic img {	position: absolute;
+			top: 35%;
+			left: 50%;
+			transform: translate(-50%, -50%);}
+#text p {	position: absolute;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size:30px;
+			font-family:"Verdana";
+			font-weight:bold; }
+#text2 p {  position: absolute;
+			top: 72%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size:20px;
+			font-family:"Verdana"; }
