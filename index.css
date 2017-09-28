@@ -4,30 +4,46 @@
 						background-size: cover;
 						position: absolute;}
 #homey img {			position: absolute;
-						top: 58%;
+						top: 50%;
 						left: 50%;
 						transform: translate(-50%, -50%);
-						border-radius: 100px; }
-#homey p {				position: absolute;
-						top: 73%;
+						border-radius: 100%; 
+						border:7px solid white;}
+#homey h1{				position: absolute;
+						top: 75%;
 						left: 50%;
 						transform: translate(-50%, -50%);
 						color: white;
-						font-size:30px;
-						font-family:"Estrangelo Edessa";}
-#button a {				position: absolute;
-						padding:7px;
-						top: 86%;
-						left: 50%;
-						transform: translate(-50%, -50%);	
-						border: 3px solid white;
-						border-radius:20px;
-						font-size:25px;
+						font-weight: bold;
+						font-size:50px;
 						font-family:"Estrangelo Edessa";
-						text-align: center; }
-#button a:link {		text-decoration: none; 
-						color:white; }
-#button a:hover {		text-decoration: none;
-						background-color:#92a8d1;
-						color:#f5c8cb;
-						border-color:#92a8d1; }
+						border-top: 3px solid white;
+						border-bottom: 3px solid white;}	
+#homey p{				position: absolute;
+						top: 85%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						color: white;
+						font-weight: bold;
+						font-size:25px;
+						font-family:"Estrangelo Edessa";}							
+#navbar {			margin: 0 auto; 
+					width:auto; 
+					height:35px; 
+					font-family:"Estrangelo Edessa";
+					font-weight: bold;
+					font-size:20px;
+					padding-right: 50px;
+					padding-top: 30px;
+					padding-bottom:10px;}
+#navbar ul{			margin: 0;
+					padding: 0;
+					float: right;}
+#navbar li{			display:inline;
+					margin-left: 35px;}
+#navbar a:link{		text-decoration:none; 
+					color:white;}
+#navbar a:visited{					color:white;}
+#navbar a:hover{	text-decoration: none;
+						color:#f5c8cb;}
+#navbar a:active{}
