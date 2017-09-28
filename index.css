@@ -1,28 +1,46 @@
-#header { 	background-color: #E0EEEE;
-			width:auto;
-			margin: 0 auto;
-			padding: 0;
-			height: 450px;
-			position: relative;
-			text-align: center;}
-#pic img {	position: absolute;
-			top: 58%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			border-radius: 100px;
-			border:7px solid white;}
-#text p {	position: absolute;
-			top: 76%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: white;
-			font-size:40px;
-			font-family:"Bradley Hand ITC";
-			font-weight:bold; }
-#text2 p {  position: absolute;
-			top: 86%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: white;
-			font-size:30px;
-			font-family:"Bradley Hand ITC";}
+#header { 				background-color: #E0EEEE;
+						width:auto;
+						margin: 0 auto;
+						padding: 0;
+						height: 450px;
+						position: relative; }
+#header img {			position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%); }
+#pic img {				position: absolute;
+						top: 58%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						border-radius: 100px;
+						border:7px solid white; }
+#text p {				position: absolute;
+						top: 76%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						color: white;
+						font-size:40px;
+						font-family:"Estrangelo Edessa";
+						font-weight:bold; }
+#text2 p {  			position: absolute;
+						top: 86%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						color: white;
+						font-size:30px;
+						font-family:"Estrangelo Edessa"; }
+#infos h1, p {			text-align: center;
+						font-family:"Estrangelo Edessa"; }
+#infos p {				font-size:20px; }
+#footer {				background-color:#E0EEEE;
+						width:auto;
+						height:100px;
+						padding-top:20px;
+						margin: 0 auto;
+						font-family:serif; }
+#footer p {				width:950px;
+						margin:0 auto;
+						padding-top:5px;
+						font-family:serif;
+						color:gray;
+						text-indent:30px; }
