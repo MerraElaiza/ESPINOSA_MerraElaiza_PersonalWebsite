@@ -8,7 +8,8 @@ body {    					margin: 0;
 							font-family:"Estrangelo Edessa";
 							font-weight: bold;
 							font-size:20px;
-							background-color: rgb(48,48,48, 0.9); }
+							background-color: rgb(48,48,48, 0.9); 
+							border-bottom-color: black;}
 #navbar img {				margin-top:8px;
 							margin-left: 60px; }
 #navbar ul {				padding:15px;
