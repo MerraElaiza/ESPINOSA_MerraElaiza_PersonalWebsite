@@ -5,13 +5,43 @@
 	<title>Personal Website</title>
 	<style>
 		body {    
-			margin: 0;
-			padding: 0; 
+				margin: 0;
+				padding: 0; 
+				background-image: url('back.jpg');
+				background-size: cover;
 			}
+		body img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				border-radius: 100%; 
+				border:7px solid white;
+			}
+		body h1 {
+				position: absolute;
+				top: 75%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				font-weight: bold;
+				font-size:50px;
+				font-family:"Estrangelo Edessa";
+				border-top: 3px solid white;
+				border-bottom: 3px solid white;
+			}
+		body p{	position: absolute;
+				top: 85%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				font-weight: bold;
+				font-size:25px;
+				font-family:"Estrangelo Edessa";
+			}	
 	</style>
 </head>
 <body>
-	<div id ="homey">
 		<div id="navbar">
 			<ul>
 				<li><a href="profile.html">PROFILE</a></li>
@@ -23,6 +53,6 @@
 		<img src="merr.jpg">
 		<h1>Merra Elaiza Espinosa</h1>
 		<p> My Personal Website</p>
-	</div>
+
 </body>
 </html>
