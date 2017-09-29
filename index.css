@@ -1,12 +1,14 @@
 #navbar {					margin: 0 auto; 
 							width:auto; 
-							height:70px; 
+							height:50px; 
 							font-family:"Estrangelo Edessa";
 							font-weight: bold;
 							font-size:20px;
-							border-bottom: 1px solid rgb(255,255,255, 0.5);}
-#navbar img {				margin-left: 60px; }
-#navbar ul {				padding:25px;
+							border-bottom: 1px solid rgb(255,255,255, 0.5);
+							background-color: #303030;}
+#navbar img {				margin-top:8px;
+							margin-left: 60px; }
+#navbar ul {				padding:15px;
 							width: 600px;
 							margin: 0;
 							float: right; }
