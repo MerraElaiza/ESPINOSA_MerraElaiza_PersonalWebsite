@@ -7,12 +7,13 @@
 					padding-top: 30px;
 					padding-bottom:10px;
 					border-bottom: 1px solid rgb(255,255,255, 0.5);}
-#navbar ul {		margin: 0;
-					padding-right: 50px;
+#navbar ul {		width: 600px;
+					margin: 0;
 					float: right;}
 #navbar li {		display:inline;
 					margin-left: 50px;}
 #navbar a:link {	text-decoration:none; 
 					color:white;}
+#navbar a:visited { color:white;}
 #navbar a:hover {	text-decoration: none;
 					color:#f5c8cb;}
