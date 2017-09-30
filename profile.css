@@ -13,3 +13,25 @@
 						padding: 20px;
 						width:85%;
 						height: 500px; }	
+#infos h1 {		     	overflow: hidden;
+						text-align: center;
+						font-size:45px;
+						font-style:"Cooper Black"; }
+#infos h1:before {		background-color: #000;
+						content: "";
+						display: inline-block;
+						height: 1.5px;
+						position: relative;
+						vertical-align: middle;
+						width: 50%; 
+						right: 0.5em;
+						margin-left: -50%; }
+#infos h1:after {		background-color: #000;
+						content: "";
+						display: inline-block;
+						height: 1.5px;
+						position: relative;
+						vertical-align: middle;
+						width: 50%; 
+						left: 0.5em;
+						margin-right: -50%; }
