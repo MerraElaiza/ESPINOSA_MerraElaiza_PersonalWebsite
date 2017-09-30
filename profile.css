@@ -68,6 +68,9 @@
 						height: 280px; }	
 #elem,#hs, #college{ display:inline;
 					float:left;
-					width: 330px;}	
+					width: 340px;
+					text-align: center;
+					margin:0 auto;}
+#elem,#hs{ border-right: 1px solid black;}						
 #elem img,#hs img , #college img{ margin: auto;
 display: block;}						
