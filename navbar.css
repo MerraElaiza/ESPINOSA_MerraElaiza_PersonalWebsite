@@ -2,14 +2,17 @@ body {    					margin: 0;
 							padding: 0; 
 							background-image: url('back.jpg');
 							background-size: cover; }
-#navbar {					margin: 0 auto; 
+#navbar {					position: sticky;
+							top:0;
+							margin: 0 auto; 
 							width:auto; 
 							height:50px; 
 							font-family:"Estrangelo Edessa";
 							font-weight: bold;
 							font-size:20px;
 							background-color: rgb(48,48,48, 0.9); 
-							border-bottom-color: black;}
+							border-bottom-color: black;
+							z-index:1;}
 #navbar img {				margin-top:8px;
 							margin-left: 60px; }
 #navbar ul {				padding:15px;

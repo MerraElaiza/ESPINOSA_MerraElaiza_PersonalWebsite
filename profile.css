@@ -1,17 +1,12 @@
+body{					height: 1100px;}
 #container { 			width:100%;
-						height: 1100px;
-						position: absolute; }
-#container img {		position: absolute;
-						top: 50%;
-						left: 50%;
-						transform: translate(-50%, -50%);
-						border-radius: 100%; 
-						border:7px solid white; }
+						height: 1000px;
+						position: absolute; 
+						z-index:0;}
 #infos{					position: absolute;
-						top: 50%;
+						top: 30%;
 						left: 48%;
 						transform: translate(-50%, -50%);
-						color: #99abd1;
 						font-weight: bold;
 						font-family:"Estrangelo Edessa";
 						background-color: rgb(255,255,255, 0.8); 
