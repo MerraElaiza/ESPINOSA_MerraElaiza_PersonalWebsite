@@ -15,11 +15,11 @@
 						padding-right:20px;
 						width:80%;
 						height: 400px; }	
-#infos h1, #edu h1 {		     	overflow: hidden;
+#infos h1, #edu h1, #skill h1 {		     	overflow: hidden;
 						text-align: center;
 						font-size:40px;
 						font-style:"Cooper Black"; }
-#infos h1:before, #edu h1:before {		background-color: #000;
+#infos h1:before, #edu h1:before, #skill h1:before{		background-color: #000;
 						content: "";
 						display: inline-block;
 						height: 2px;
@@ -28,7 +28,7 @@
 						width: 50%; 
 						right: 0.5em;
 						margin-left: -50%; }
-#infos h1:after, #edu h1:after {		background-color: #000;
+#infos h1:after, #edu h1:after, #skill h1:after{		background-color: #000;
 						content: "";
 						display: inline-block;
 						height: 2px;
@@ -49,4 +49,17 @@
 						padding-left:20px;
 						padding-right:20px;
 						width:80%;
-						height: 450px; }	
+						height: 450px; }
+#skill{					position: absolute;
+						top: 79%;
+						left: 48%;
+						transform: translate(-50%, -50%);
+						font-weight: bold;
+						font-family:"Estrangelo Edessa";
+						background-color: rgb(255,255,255, 0.8); 
+						margin: 20px;
+						padding-top: 5px;
+						padding-left:20px;
+						padding-right:20px;
+						width:80%;
+						height: 280px; }						
