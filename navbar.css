@@ -2,7 +2,7 @@ body {    					margin: 0;
 							padding: 0; 
 							background-image: url('backgr.png');
 							background-size: cover;
-							height: 1500px;
+							height: 1700px;
 							overflow: hidden;}
 #navbar {					position: sticky;
 							top:0;
