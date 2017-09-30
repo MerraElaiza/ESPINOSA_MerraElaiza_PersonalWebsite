@@ -1,7 +1,9 @@
 body {    					margin: 0;
 							padding: 0; 
 							background-image: url('back.jpg');
-							background-size: cover; }
+							background-size: cover;
+							height: 1000px;
+							overflow: hidden;}
 #navbar {					position: sticky;
 							top:0;
 							margin: 0 auto; 
