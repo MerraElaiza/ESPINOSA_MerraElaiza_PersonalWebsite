@@ -6,5 +6,7 @@ body {    					margin: 0;
 						height: 1600px;
 						position: absolute; 
 						z-index:0;
-						background-image: url('gallery.jpg');
-						background-size: cover;}
+						}
+#gallery {					height: 1549px;
+							background-image: url('gallery.jpg');
+							background-size: cover; }
