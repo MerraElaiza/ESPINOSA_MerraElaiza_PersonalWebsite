@@ -1,7 +1,5 @@
 body {    					margin: 0;
-							padding: 0; 
-							background-color: #22252c;
-							background-size: cover;
+							padding: 0;
 							height: 1730px;
 							overflow: hidden;}
 #container { 			width:100%;
@@ -13,40 +11,23 @@ body {    					margin: 0;
 						transform: translate(-50%, -50%);
 						font-weight: bold;
 						font-family:"Estrangelo Edessa";
-						background-color: #22252c;
 						margin: 20px;
 						padding-top: 5px;
 						padding-left:20px;
 						padding-right:20px;
-						width:95%;
+						width:100%;
 						border-radius: 10px;}	
-#infos {top: 15.5%;
-height: 500px;}
+#infos {top: 14.5%;
+height: 500px;
+background-image: url('info.jpg');
+background-size: cover;}
 #infos h1, #edu h1, #skill h1 {		     	
 						overflow: hidden;
 						text-align: center;
 						font-size:40px;
-						font-style:"Cooper Black"; }
-#infos h1:before, #edu h1:before, #skill h1:before{		
-						background-color: #000;
-						content: "";
-						display: inline-block;
-						height: 2px;
-						position: relative;
-						vertical-align: middle;
-						width: 50%; 
-						right: 0.5em;
-						margin-left: -50%; }
-#infos h1:after, #edu h1:after, #skill h1:after{		
-						background-color: #000;
-						content: "";
-						display: inline-block;
-						height: 2px;
-						position: relative;
-						vertical-align: middle;
-						width: 50%; 
-						left: 0.5em;
-						margin-right: -50%; }
+						font-style:"Cooper Black"; 
+						color: rgb(255,255,255);}
+#edu h1{ color:black;}
 #edu{					top: 50%;
 						height: 550px; }
 #skill{						top: 79.5%;

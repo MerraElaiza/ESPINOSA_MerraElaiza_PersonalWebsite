@@ -2,12 +2,12 @@
 							top:0;
 							margin: 0 auto; 
 							width:auto; 
-							height:50px; 
+							height:49px; 
 							font-family:"Estrangelo Edessa";
 							font-weight: bold;
 							font-size:20px;
-							background-color: rgb(244,244,244, 0.9); 
-							border-bottom-color: black;
+							background-color: rgb(244,244,244); 
+							border-bottom: 2px solid #e14658;
 							z-index:1;}
 #navbar img {				margin-top:8px;
 							margin-left: 60px; }
@@ -16,10 +16,11 @@
 							margin: 0;
 							float: right; }
 #navbar li {				display:inline;
-							margin-left: 50px; }
+							margin-left: 50px; 
+							}
 #navbar a:link {			text-decoration:none; 
-							color:rgb(55,55,55); }
+							color:rgb(55,55,55); 
+							padding: 10px;}
 #navbar a:visited {			color:rgb(55,55,55); }
 #navbar a:hover {			text-decoration: none;}
-#navbar a:active {			text-decoration: none;
-							color:#f5c8cb; }
+#navbar a:active {			text-decoration: none;}
