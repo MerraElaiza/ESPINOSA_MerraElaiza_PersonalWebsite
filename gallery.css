@@ -24,8 +24,7 @@ body {    					margin: 0;
 						color: white;
 						text-align:center;}
 #first, #second, #third, #fourth {
-						height:370px;
-						border: 1px solid white; }
+						height:370px;}
 #a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p{		display:inline;
 							float:left;
 							width: 315px;
@@ -33,5 +32,8 @@ body {    					margin: 0;
 							margin:0 auto;
 							font-family:"Tekton Pro";
 							vertical-align:middle;}	
-
+#a img, #b img, #c img, #d img, #e img, #f img, #g img, #h img, #i img, #j img, #k img, #l img, #m img, #n img, #o img, #p img{
+	border: 5px solid white;
+border-radius:15px;}
+	
 
