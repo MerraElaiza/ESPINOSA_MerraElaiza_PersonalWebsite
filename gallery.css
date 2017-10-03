@@ -25,5 +25,13 @@ body {    					margin: 0;
 						text-align:center;}
 #first, #second, #third, #fourth {
 						height:370px;
-border: 1px solid white; }
+						border: 1px solid white; }
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p{		display:inline;
+							float:left;
+							width: 315px;
+							text-align: center;
+							margin:0 auto;
+							font-family:"Tekton Pro";
+							vertical-align:middle;}	
+
 
