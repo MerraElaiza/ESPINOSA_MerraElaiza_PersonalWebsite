@@ -20,7 +20,10 @@ body {    					margin: 0;
 						padding-right:20px;
 						width:100%;}
 #gallery p{				font-family: "Tekton Pro";
-						font-size:25px;
+						font-size:15.5px;
 						color: white;
 						text-align:center;}
+#first, #second, #third, #fourth {
+						height:370px;
+border: 1px solid white; }
 
