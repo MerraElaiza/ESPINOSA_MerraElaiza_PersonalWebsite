@@ -40,14 +40,19 @@ body {    					margin: 0;
 							height: 500px; 
 							background-image: url('skill.jpg');
 							background-size: cover;}	
-#elem,#hs, #college{		display:inline;
-							float:left;
+#elem,#hs, #college{		float:left;
 							width: 385px;
 							text-align: center;
 							margin:0 auto;
 							padding:10px;
 							font-family:"Tekton Pro";
 							vertical-align:middle;}	
-#elem img,#hs img , #college img{ 
-							margin: auto;
-							display: block;}						
+#dr,#g, #m,#da {		float:left;
+							width: 295px;
+							text-align: center;
+							margin:0 auto;
+							padding:10px;
+							font-family:"Tekton Pro";
+							vertical-align:middle;
+							color:white;}	
+							
