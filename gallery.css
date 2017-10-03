@@ -20,18 +20,21 @@ body {    					margin: 0;
 						padding-right:20px;
 						width:100%;}
 #gallery p{				font-family: "Tekton Pro";
-						font-size:15.5px;
+						font-size:20px;
 						color: white;
 						text-align:center;}
-#first, #second, #third, #fourth {
-						height:370px;}
-#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p{		display:inline;
+#first {
+padding-top: 50px;}
+#first, #second{		height:290px;}
+#third, #fourth {		height:440px;}
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p{		
+							display:inline;
 							float:left;
 							width: 315px;
 							text-align: center;
 							margin:0 auto;
 							font-family:"Tekton Pro";
-							vertical-align:middle;}	
+							vertical-align:middle;}
 #a img, #b img, #c img, #d img, #e img, #f img, #g img, #h img, #i img, #j img, #k img, #l img, #m img, #n img, #o img, #p img{
 	border: 5px solid white;
 border-radius:15px;}
